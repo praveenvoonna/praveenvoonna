@@ -8,13 +8,16 @@ end-to-end across BGP, BFD, SCTP, and the Kubernetes platform they run on.
 
 #### 🛠️ What I work on day-to-day
 
-- **Networking control plane:** BGP (GoBGP), BFD, SCTP, IPv4/IPv6 — RFC-faithful implementations
-  for cloud-native NFs deployed by tier-1 telcos.
+- **Networking control plane (owner):** designed and shipped IPv6-only BGP bring-up, BGP gRPC
+  management-plane decoupling, a route-addition retry framework, BFD source-port hardening
+  (RFC 5881), and SCTP DSCP marking — features running on cloud-native NFs deployed by tier-1
+  telcos.
 - **Distributed systems in Go:** gRPC services, etcd-backed coordination, Kubernetes operators,
-  Linux netlink, concurrency-heavy data planes.
-- **Reliability & quality:** lifted unit-test coverage of a ~155k-LOC Go codebase from
-  **93% → 99%** using AI-assisted development (Claude / Augment Code) — every generated test
-  reviewed by hand.
+  Linux netlink, concurrency-heavy data planes — fixing real production race conditions and
+  driving Go / Kubernetes / gRPC platform upgrades across 8+ infrastructure repositories.
+- **Reliability & quality:** root-caused and resolved 25+ customer escalations with backports
+  across multiple release branches; raised unit-test coverage of the ~155k-LOC Go codebase
+  from 93% → 99% (AI-assisted authoring with hand-reviewed diffs).
 
 #### 🧪 Recent publication
 
