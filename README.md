@@ -52,6 +52,7 @@ AI-assisted   Claude (Anthropic) · Augment Code · GitHub Copilot
 
 #### 📫 Get in touch
 
+- **Portfolio:** [praveenvoonna.netlify.app](https://praveenvoonna.netlify.app)
 - **LinkedIn:** [linkedin.com/in/praveenvoonna](https://www.linkedin.com/in/praveenvoonna/)
 - **Email:** praveenvoonna17@gmail.com
 - **Location:** Hyderabad, India
